@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 29px 0;
+  background-color: #00000050;
+  z-index: 3;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    column-gap: 38px;
+
+    list-style-type: none;
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffff;
+    text-decoration: none;
+  }
+  &__contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffff;
+    text-decoration: none;
+  }
+}

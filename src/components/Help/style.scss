@@ -1,0 +1,47 @@
+.help-container {
+  background: linear-gradient(270deg, #267abe 0%, #195697 100%);
+}
+.help {
+  display: flex;
+  justify-content: space-between;
+   padding-top: 66px;
+}
+.help-box {
+ 
+
+  &__title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+    margin-bottom: 24px;
+  }
+
+  &__desc {
+    width: 438px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 19px;
+    margin-bottom: 47px;
+  }
+
+  &__btn {
+    color: #6b7da1;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-decoration: none;
+    padding: 17px 77px;
+    background-color:#fff;
+    border-radius:8px;
+    display: inline-block;
+    margin-bottom: 61px;
+  }
+}
+
+.help-img{
+  right: 60px;
+  top: 60px;
+  width: 600px;
+}

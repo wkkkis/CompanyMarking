@@ -1,0 +1,60 @@
+.industries {
+  padding: 0 0 59px;
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    margin-bottom: 36px;
+    color: #046bad;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  &__card {
+    padding: 42px 20px 26px;
+    text-align: center;
+    box-shadow: 3px 0 10px rgba(107, 107, 107, 0.25);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #6b7da1;
+    margin-top: 35px;
+  }
+  &__btn {
+    background: linear-gradient(270deg, #267abe 0%, #195697 100%);
+    box-shadow: 3px 0 10px rgba(107, 107, 107, 0.25);
+    border-radius: 24px;
+    padding: 28px 0 31px 33px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    img {
+      width: 40%;
+    }
+  }
+  &__application {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+  }
+  &__ques {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  &__submit {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 110%;
+  }
+}
