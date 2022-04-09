@@ -6,11 +6,11 @@
     width: 1174px;
   }
   .main__info {
-    right: 29%;
-    width: 1080px;
+    right: 25%;
+    width: 1123px;
 
     transform: translate(51%, 59%);
-    padding: 20px 0 37px 0px;
+        padding: 15px 20px 0 30px;
   }
   .main__info-item {
     font-size: 28px;
@@ -32,26 +32,29 @@
   }
   .application__card {
     width: calc(50.33333% - 26.66666px);
-    padding: 15px;
+    padding: 25px;
   }
   .industries__row {
     width: 1174px;
-    padding: 0 15px;
+    padding: 0 25px;
   }
   .projects__row {
     width: 1174px;
-    padding: 0 15px;
+    padding: 0 25px;
   }
   .projects__title {
     font-size: 40px;
-    padding-left: 15px;
+    padding-left: 25px;
   }
   .industries__title {
-    padding-left: 15px;
+    padding-left: 25px;
   }
   .marking {
     width: 1174px;
     padding: 0 15px;
+  }
+  .orders__row{
+    margin-left: 65px;
   }
   .orders {
     padding-left: 68px;
@@ -59,7 +62,7 @@
     width: 1073px;
   }
   .orders__btn {
-    padding: 0 172px;
+    padding: 0 156px;
   }
   .help-container {
     width: 1174px;
@@ -78,6 +81,22 @@
   .third-box {
     width: 1174px;
     margin-left: 15px;
+  }
+  .second-box .first-child__desc{
+    font-size:15px;
+  }
+  .second-box .second-child__desc{
+    font-size:15px;
+  }
+  .third-box .first-child__desc{
+    font-size:12px;
+  }
+  .third-box .second-child__desc{
+    font-size:15px;
+  }
+
+  .third-box .third-child__desc{
+    font-size:15px;
   }
   .equipment {
     width: 1174px;
