@@ -7,11 +7,11 @@ import './style.scss'
 const index = () => {
   return (
     <section class="main">
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper ">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div
-              class="main__content"
+              class="main__content "
               style={{
                 backgroundImage: `url(${bg})`,
                 repeat: false,
@@ -19,18 +19,20 @@ const index = () => {
                 backgroundSize: "cover",
               }}
             >
-              <h1 class="main__title">
-                Комплексные решения <br />
-                для цифровой маркировки
-              </h1>
-              <p class="main__text">
-                Полноценное решение для работы с системой маркировки: <br />
-                от оборудования производственных линий и отдельных <br />
-                сервисов до комплексного сопровождения
-              </p>
-              <button class="main__btn" type="button">
-                Получить предложение
-              </button>
+              <div className="wrapper">
+                <h1 class="main__title">
+                  Комплексные решения <br />
+                  для цифровой маркировки
+                </h1>
+                <p class="main__text">
+                  Полноценное решение для работы с системой маркировки: <br />
+                  от оборудования производственных линий и отдельных <br />
+                  сервисов до комплексного сопровождения
+                </p>
+                <button class="main__btn" type="button">
+                  Получить предложение
+                </button>
+              </div>
             </div>
           </div>
         </div>
