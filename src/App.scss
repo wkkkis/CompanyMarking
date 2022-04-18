@@ -8,6 +8,8 @@
   width: 100%;
   max-width: 1161px;
   margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .container {
   width: 100%;
@@ -29,4 +31,10 @@
 
 button:hover{
 background-color: #004068
+}
+
+@media (max-width: 768px) {
+  .wrapper, .container { 
+    max-width: 768px; 
+  }
 }

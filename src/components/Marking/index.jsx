@@ -7,6 +7,9 @@ const Marking = () => {
   return (
       <section class="marking">
         <div class="container">
+            <div class="marking__order_left">
+                <img src={photo} alt="image"/>
+            </div>
             <h2 class="marking__title">
                 Программное обеспечение для маркировки
             </h2>

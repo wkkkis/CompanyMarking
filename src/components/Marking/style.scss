@@ -1,5 +1,10 @@
 .marking {
   padding-bottom: 72px;
+
+  &__order_left {
+    display: none;
+  }
+  
   &__title {
     font-weight: 700;
     font-size: 48px;
