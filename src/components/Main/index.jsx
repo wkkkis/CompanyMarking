@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import photo from '../.././assets/img/main/info-img.png';
 import done from '../../assets/img/done.svg'
 import bg from "../../assets/img/main/bg.png";
@@ -7,7 +7,9 @@ import arrowRight from "../../assets/img/main/arrowRight.svg";
 import scrollBtn from "../../assets/img/main/scrollBtn.svg";
 import './style.scss'
 
-const index = () => {
+const Main = () => {
+
+  const [btnToScroll, setBtnToScroll] = useState(false)
 
   const scrollTop = () => {
     window.scrollTo({
@@ -16,6 +18,21 @@ const index = () => {
       behavior: "smooth"
     });
   }
+  
+  let scrollHandler = (e) => {
+    if (e.target.documentElement.scrollTop > 10) {
+      setBtnToScroll(true)
+    } else {
+      setBtnToScroll(false)
+    }
+  }
+
+  useEffect(() => {
+      document.addEventListener('scroll', scrollHandler)
+      return function () {
+          document.removeEventListener("scroll", scrollHandler)
+      }
+  }, [])
 
   return (
     <section class="main">
@@ -106,11 +123,13 @@ const index = () => {
           <img src={photo} className="main__info-img" alt="info" />
         </div>
       {/* </div> */}
-      <div className="top_btn" onClick={scrollTop}>
+      {btnToScroll && (
+        <div className="top_btn" onClick={scrollTop}>
           <img src={scrollBtn} alt="" />
-      </div>
+        </div>
+      )}
     </section>
   );
 };
 
-export default index;
+export default Main;

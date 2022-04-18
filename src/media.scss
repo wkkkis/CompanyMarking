@@ -285,8 +285,8 @@
 
       img {
         position: absolute;
-        right: -27px;
-        width: 75%;
+        right: 0;
+        width: 55%;
         height: 75%;
         top: 25%;
       }
@@ -299,9 +299,9 @@
 
       img {
         position: absolute;
-        right: -10px;
-        width: 80%;
-        height: 100%;
+        right: 0;
+        width: 70% !important;
+        height: 90%;
       }
     }
   }
@@ -422,7 +422,7 @@
 @media (max-width: 481px) {
 
   .top_btn {
-    right: 25px;
+    right: 15px;
   }
 
   .header {
@@ -667,7 +667,7 @@
   }
   .orders__content {
     width: 100%;
-    height: auto;
+    height: 157px;
     border-radius: 25px;
     padding: 41px 35px 41px 180px;
     text-align: start;
@@ -698,21 +698,18 @@
     flex-direction: column;
   }
   .help-img {
-    position: absolute;
-    top: 795%;
-    left: -5%;
-    z-index: 3;
-    order: -1;
     margin-top: -30%;
+    order: -1;
+    width: 100% !important;
   }
   .help-box__title {
     width: 1174px;
   }
   .help-box__title {
     font-size: 65px;
+    padding-top: 0 !important;
   }
   .help-box {
-    padding-left: 55px;
     width: 100% !important;
   }
   .help-box__desc {
@@ -753,6 +750,7 @@
   }
   .first-child > img {
     width: 90%;
+    right: 0;
   }
   .first-child__title {
     font-size: 18px;
@@ -797,6 +795,7 @@
     position: absolute;
     bottom: -1px;
     left: 157px;
+    width: 63%;
   }
   .third-box .second-child {
     display: flex;
@@ -838,11 +837,11 @@
     width: 100%;
   }
   .third-box > .third-child > img {
-    width: 100%;
+    width: 60%;
     height: 100%;
     padding: 0;
     position: absolute;
-    right: -97px;
+    right: 0;
     bottom: -8px;
     object-fit: none;
   }

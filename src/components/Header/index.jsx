@@ -49,10 +49,20 @@ const Header = () => {
               <div className="burgermenu_container">
                 <ul className="links">
                   <li>
-                    О маркировке
+                    <a href="#">
+                      О маркировке
+                    </a>
                   </li>
-                  <li>Отрасли</li>
-                  <li>Услуги</li>
+                  <li>
+                    <a href="#">
+                      Отрасли
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      Услуги
+                    </a>
+                  </li>
                 </ul>
                 <div class="menu-links">
                   <a class="menu-links__first" href="tel:+7 (499) 940-09-90">
